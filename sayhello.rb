@@ -1,1 +1,1 @@
-it should say 'Hello from Rspec' when ran
+I want Rspec to say hello to me
