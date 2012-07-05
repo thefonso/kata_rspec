@@ -6,12 +6,17 @@ describe "sayhello.rb" do
     @hi = Hello.new
   end
   
-  
     it "contains an object called Hello" do
       @hi.should be_an_instance_of  Hello
     end
-    xit "should say 'Hello from Rspec' when ran" do        
-      # STDOUT.should_receive(:puts).with('Hello from RSpec')        
+    
+    describe "hello.speak" do 
+      it "should return Hello from RSpec" do
+        
+        $stdout.should_receive(:puts).with("Hello from RSpec")
+        
+        @hi.speak
+      end
     end
 
 end
