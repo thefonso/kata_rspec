@@ -37,12 +37,12 @@ But you ask WHY IS THIS convention? Because, rarely do you write an app that onl
 
 In this case directory structure looks like so...
 
-kata_rspec
-    lib
-        sayhello.rb
-    spec
-        spec_helper
-        sayhello_spec.rb
+    kata_rspec
+        lib
+            sayhello.rb
+        spec
+            spec_helper
+            sayhello_spec.rb
         
     Note: 
     Your spec_helper.rb file goes from this...
@@ -53,6 +53,9 @@ kata_rspec
 
     require_relative '../lib/sayhello.rb' #points to file so RSpec can 'see' it
     
+TO SEE THIS EXAMPLE:
+switch to the 'conventional' branch
+
 
 As you go along in developing your code, things will get even more interesting. You will have a ton of test living inside the spec directory. So an ideal way to handle this is by creating folders inside your spec folder like so...
 
