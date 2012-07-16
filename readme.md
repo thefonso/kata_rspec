@@ -21,12 +21,16 @@ Your directory tree should resemble this
             spec_helper
 
 
+Now take a look at each of the four files in this repository. And you should be able to easily recreate this test on your own.
+
+-thefonso
+
+
 
 
 Note:
 
 Useful tidbits:
-
 Run rspec from command line like so...
 $rspec spec --format nested
 
