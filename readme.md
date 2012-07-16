@@ -62,15 +62,15 @@ kata_rspec
 
 As you go along in developing your code, things will get even more interesting. You will have a ton of test living inside the spec directory. So an ideal way to handle this is by creating folders inside your spec folder like so...
 
-kata_rspec
-    lib
-        sayhello.rb
-    spec
-        spec_helper
-        controller_test
-            controller-i-am-testing_spec.rb
-        views_test
-            view-i-am-testing_spec.rb
+    kata_rspec
+        lib
+            sayhello.rb
+        spec
+            spec_helper
+            controller_test
+                controller-i-am-testing_spec.rb
+            views_test
+                view-i-am-testing_spec.rb
 
 
 Get the idea?
