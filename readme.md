@@ -43,12 +43,12 @@ But you ask WHY IS THIS convention? Because, rarely do you write an app that onl
 
 In this case directory structure looks like so...
 
-kata_rspec
-    lib
-        sayhello.rb
-    spec
-        spec_helper
-        sayhello_spec.rb
+    kata_rspec
+        lib
+            sayhello.rb
+        spec
+            spec_helper
+            sayhello_spec.rb
         
     Note: 
     Your spec_helper.rb file goes from this...
@@ -76,6 +76,7 @@ As you go along in developing your code, things will get even more interesting. 
 Get the idea?
 
 As long as you run...
+    
     $rspec spec
 
 At the command prompt, rspec will test all the test in that directory recursively.
@@ -86,7 +87,8 @@ At the command prompt, rspec will test all the test in that directory recursivel
 Useful tidbits:
 
 Run rspec from command line like so...
-$rspec spec --format nested
+
+    $rspec spec --format nested
 
 Or 
 
