@@ -1,6 +1,5 @@
 A simple RSpec example
-(branch 1 non-conventional)
-(branch 2 conventional)
+(branch conventional)
 
 
 At prompt:
@@ -13,13 +12,19 @@ Install RSpec
 
     $gem install rspec
     
+    
 Then from inside the directory kata_rspec
     
     $rspec --init
 
+Finally, make a lib directory
+
+    $mkdir lib
+
 Your directory tree should resemble this
 
     kata_rspec
+        lib
         spec
             spec_helper
 
@@ -32,7 +37,7 @@ Now take a look at each of the four files in this repository. And you should be 
 
 
 Note:
-About conventions. What you see here slightly differs from convention in that normally when you test a class it lives in lib/sayhello.rb and tests live in spec/sayhello.rb
+About conventions. What you see here is a conventional structure. Your class files live in lib/sayhello.rb and your tests live in spec/sayhello.rb
 
 But you ask WHY IS THIS convention? Because, rarely do you write an app that only has one class file! As your project grows, it becomes a ton of files. Placing your files in a lib folder is a way to 'begin' organizing your files.
 
